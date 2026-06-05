@@ -26,7 +26,6 @@ Analyzed $52,839 inventory across 4 warehouses to identify cash concentration ri
 **Total Inventory Value**: $52,839 across North, South, East, West  
 **Biggest Risk**: West warehouse Control Panels = $9,600 in single SKU  
 **Biggest Opportunity**: $21,311 dead stock with Active suppliers = can liquidate to cash  
-**Quick Win**: Reduce safety stock 30% on top-ranked Active supplier items = free $5,000+ working capital  
- < reorder_level 
+**Quick Win**: Reduce safety stock 30% on top-ranked Active supplier items
   AND supplier_status != 'Active'
 ORDER BY Restock_Cost DESC;
